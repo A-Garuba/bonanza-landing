@@ -150,7 +150,7 @@ function onDocumentMouseMove(event) {
 }
 
 const updateSphere = (event) => {
-    sphere.position.y = -window.scrollY * .001
+    sphere.position.y = -window.scrollY * .002
 }
 
 window.addEventListener('scroll', updateSphere)
@@ -166,11 +166,10 @@ const tick = () =>
 
     // Sphere motion
     sphere.rotation.y = .5 * elapsedTime
+    sphere.rotation.y += .5 * (targetX - sphere.rotation.y)
 
-    // sphere.rotation.y += .5 * (targetX - sphere.rotation.y)
     // sphere.position.z -= .05 * (targetY - sphere.rotation.x)
-
-    // sphere.position.z = Math.min(Math.max(sphere.position.z, -3), 1);
+    // sphere.position.z = Math.min(Math.max(sphere.position.z, -2), 0.5);
 
     // Light motion
     pointLight1.position.x += lightBounce

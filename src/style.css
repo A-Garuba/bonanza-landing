@@ -9,7 +9,7 @@ body
 {
     height: 100vh;
     font-family: 'Tahoma';
-    background: rgb(24, 24, 24);
+    background: rgb(0, 0, 0);
 }
 body {
     overflow-x: hidden;
@@ -36,5 +36,5 @@ body {
  }
 
  section {
-     padding-top: 80rem;
+     padding-top: 40rem;
  }
