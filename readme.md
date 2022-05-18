@@ -1,5 +1,5 @@
-# Three.js Starter
-Courtesy of Bruno Simon of https://threejs-journey.xyz/
+# Bonanza Landing
+Courtesy of [THREE.js tutorial](https://www.youtube.com/watch?v=pUgWfqWZWmM&t=2925s&ab_channel=DesignCourse) by DesignCourse.
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
